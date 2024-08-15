@@ -1,0 +1,69 @@
+/* Contenedor  */
+.custom-form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Título del formulario */
+  .custom-form-title {
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* inputs */
+  .custom-form-input, .custom-form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  .custom-form-input:focus, .custom-form-textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Botón*/
+  .custom-form-button {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Errores */
+  .custom-error-message {
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .custom-error-message ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .custom-error-message li {
+    margin-bottom: 5px;
+  }
+  
