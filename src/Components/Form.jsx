@@ -13,7 +13,7 @@ const Form = () => {
 
   const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
   const phoneRegex = /^\d{9}$/;
-  const messageRegex = /^(?!\s*$).+/; // Asegura que el mensaje no esté vacío o solo tenga espacios en blanco
+  const messageRegex = /^(?!\s*$).+/;
 
   const handleSubmit = (e) => {
     e.preventDefault();
