@@ -23,8 +23,8 @@ const Form = () => {
       newErrors.push("El nombre debe tener al menos 3 caracteres");
     }
 
-    if (surname.length < 3 || surname.trim() !== surname) {
-      newErrors.push("El apellido debe tener al menos 3 caracteres");
+    if (surname.length < 6 || surname.trim() !== surname) {
+      newErrors.push("El apellido debe tener al menos 6 caracteres");
     }
 
     if (!emailRegex.test(email)) {
